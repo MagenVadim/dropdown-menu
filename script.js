@@ -18,3 +18,9 @@ const help_btn = document.querySelector(".back-help-btn");
       setting_drop.style.display = "block";
     }, 100);
   });
+  help_item.onclick = (()=>{
+    menu_bar.style.marginLeft = "-400px";
+    setTimeout(()=>{
+      help_drop.style.display = "block";
+    }, 100);
+  });
