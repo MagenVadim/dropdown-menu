@@ -24,3 +24,7 @@ const help_btn = document.querySelector(".back-help-btn");
       help_drop.style.display = "block";
     }, 100);
   });
+  setting_btn.onclick = (()=>{
+    menu_bar.style.marginLeft = "0px";
+    setting_drop.style.display = "none";
+  });
